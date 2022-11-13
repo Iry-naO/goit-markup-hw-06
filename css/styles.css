@@ -468,8 +468,7 @@ img {
 .client-item {
     display: block;
     width: 170px;
-    height: 92px;
-    
+    height: 92px;    
 }
 
 .client-link {
@@ -508,13 +507,12 @@ img {
 .footer-container {
     display: flex;
     padding: 60px 0;
+    gap: 93px;
     align-items: baseline;
 }
 
 .footer-contact-container {
     display: block;
-    width: 231px;
-    margin-right: 70px;
 }
 
 .logo-link {
@@ -559,8 +557,6 @@ img {
 
 .footer-social-container {
     display: block;
-    width: 206px;
-    margin-right: 93px;    
 }
 
 .footer-social-text {
@@ -611,10 +607,10 @@ img {
     background-color: var(--accent-color);
 }
 
-.subscribe-label {
+.subscribe-title {
     display: block;
+    margin: 0;
     margin-bottom: 20px;
-    margin-left: 4px;
     font-size: 14px;
     font-weight: 700;
     line-height: 1.172;
@@ -634,7 +630,7 @@ img {
 .subscribe-input {
     width: 358px;
     height: 50px;
-    margin: 0 12px 0 4px;
+    margin: 0 12px 0 0;
     padding: 15px 16px;
     border: 1px solid var(--border-color);
     border-radius: 4px;
@@ -654,11 +650,12 @@ img {
 }
 
 .subscribe-button {
-    display: inline-flex;
+    display: flex;
+    width: 200px;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding: 10px 28px;
+    padding: 10px;
     margin: 0 auto;
 
     background-color: var(--accent-color);
@@ -903,7 +900,6 @@ img {
 
 .data-input {
     display: block;
-    margin-bottom: 10px;
     padding: 11px 12px 11px 42px;
     width: 100%;
     height: 40px;
@@ -922,6 +918,7 @@ img {
 
 .data-input-block {
     margin: 0;
+    margin-bottom: 10px;
     position: relative;
     color: var(--brand-color);   
 }
@@ -1013,16 +1010,15 @@ img {
     border: none;
 }
 
-.data-button-block {
-    width: 100%;
-    padding: 0 124px;    
-}
+
 
 .data-link {
     color: var(--accent-color);
 }
 
 .data-button {
+    display: block;
+    margin: 0 auto;
     width: 200px;
     padding: 10px 52px;
     background-color: var(--accent-color);
