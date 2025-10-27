@@ -47,6 +47,7 @@
             </li>
           </ul>
         </address>
+
         <!-- BUTTON MOBILE OPEN -->
         <button class="header-menu-btn" type="button" data-mobile-open>
           <svg class="header-menu-icon" width="24" height="24">
@@ -209,7 +210,11 @@
           <ul class="team-list">
             <li class="team-item">
               <img
-                src="./images/Team-1.jpg"
+                srcset="
+                  ./images/team/Team-1@1x-desk-min.jpg 1x,
+                  ./images/team/Team-1@2x-desk-min.jpg 2x
+                "
+                src="./images/team/Team-1@1x-desk-min.jpg"
                 alt="A dark-haired bearded man in a light blue shirt"
                 width="264"
                 height="260"
@@ -251,7 +256,11 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/Team-2.jpg"
+                srcset="
+                  ./images/team/Team-2@1x-desk-min.jpg 1x,
+                  ./images/team/Team-2@2x-desk-min.jpg 2x
+                "
+                src="./images/team/Team-2@1x-desk-min.jpg"
                 alt="A fair-haired man in a light blue shirt"
                 width="264"
                 height="260"
@@ -293,7 +302,11 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/Team-3.jpg"
+                srcset="
+                  ./images/team/Team-3@1x-desk-min.jpg 1x,
+                  ./images/team/Team-3@2x-desk-min.jpg 2x
+                "
+                src="./images/team/Team-3@1x-desk-min.jpg"
                 alt="A dark-haired woman in a pink sweater"
                 width="264"
                 height="260"
@@ -335,7 +348,11 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/Team-4.jpg"
+                srcset="
+                  ./images/team/Team-4@1x-desk-min.jpg 1x,
+                  ./images/team/Team-4@2x-desk-min.jpg 2x
+                "
+                src="./images/team/Team-4@1x-desk-min.jpg"
                 alt="A dark-haired man in a gray T-shirt"
                 width="264"
                 height="260"
@@ -656,7 +673,8 @@
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the <a class="checkbox-link" href="">Privacy Policy</a>
+              <span>I accept the terms and conditions of the <a class="checkbox-link" href="">Privacy Policy</a></span>
+              
             </label>
           </div>
           <button class="modal-send-btn" type="submit">Send</button>
