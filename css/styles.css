@@ -455,6 +455,9 @@ img {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero/hero@1x-tab-min.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -472,6 +475,7 @@ img {
   .hero-title {
     font-size: 56px;
     line-height: 1.07;
+    max-width: 496px;
   }
 
   .hero-button {
@@ -500,10 +504,6 @@ img {
         ),
         url(../images/hero/hero@2x-desk-min.jpg);
     }
-  }
-
-  .hero-title {
-    max-width: 496px;
   }
 
   .hero-button {
@@ -979,7 +979,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .footer {
-    padding: 96px 92px;
+    padding: 96px 0;
   }
 
   .footer-text {
@@ -991,6 +991,7 @@ img {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
+    padding: 0 108px;
   }
 
   .footer-wrapper {
@@ -1026,6 +1027,7 @@ img {
     align-items: baseline;
     flex-wrap: nowrap;
     gap: 0;
+    padding: 0 15px;
   }
 
   .footer-wrapper {
